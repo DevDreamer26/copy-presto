@@ -1,10 +1,10 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Uncial+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Prata&family=Uncial+Antiqua&display=swap');
 
-body {
-  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Lobster+Two&family=Prata&family=Uncial+Antiqua&display=swap');
+
+.home {
+  font-family: DM Sans;
 }
 
 .home-main {
@@ -79,40 +79,37 @@ body {
 
 .companytitle {
   color: #f9faf8;
-  /* font-family: monospace; */
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Prata';
-  /* font-weight: ; */
   font-size: 5rem;
   margin: 0;
   white-space: nowrap;
+  
 }
 .tagline {
-  font-family: 'Canva sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.8rem;
   color: #3c4242;
+  margin-left: 0.5rem;
+  word-spacing: 0.25rem;
+  font-weight: bold;
+  letter-spacing: 0.33rem;
 }
 
 .intro-image_container{
-  height: 45rem;
-  /* width: auto; */
-  width: 10rem;
+  height: 37rem;
+  top: 4rem;
+  width: 7rem;
   position: relative;
   flex: 1;
 }
 
 .intro-image {
   object-fit: contain;
-  /* margin-left: 120px; */
-  /* margin-left: 5rem; */
   width: 100%;
-  /* max-width: 800px; */
   height: 100%;
   border-radius: 15px;
   position: absolute;
-  /* top: 5rem; */
-  /* left: 2rem; */
-  /* box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); */
+
 }
 
 
@@ -120,22 +117,30 @@ body {
   max-width: 100%;
   margin-top: 10%;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 2rem;
   padding: 10px;
   color: #3c4242;
+  line-height: 2;
+  font-family: DM Sans;
+}
+.intro-para >p{
+  line-height: 2;
+  font-size: 1.2rem;
+  font-weight: bold;
+  word-spacing: 0.25rem;
+  margin-right: 4.2rem;
+  letter-spacing: 0.05rem;
 }
 
 .schedulebutton {
   background-color: rgb(72, 163, 110);
   color: #ffffff;
-  /* width: 300px;
-  height: 100px; */
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 80px;
   display: flex;
   align-items: center;
   border: none;
-  
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
 }
 
 .sch{
@@ -155,11 +160,14 @@ body {
 }
 
 .section2>.header {
-  color: black;
-  font-size: 35px;
+  color: #3c4242;
+  font-size: 2.9rem;
   margin-top: 5rem;
   margin-bottom: 25px;
   text-align: center;
+  font-weight: 600;
+  font-family: "DM Sans";
+  letter-spacing: 0.4rem;
 }
 
 .section2>.card-align {
@@ -178,15 +186,17 @@ body {
 .section2>.card-align>.card>h3 {
   color: #00421D;
 
-  font-size: 22px;
+  font-size: 28px;
   line-height: 24px;
-  font-weight: 700;
-  margin-bottom: 4px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  letter-spacing: 0.3rem;
 }
 
 .section2 > .card-align > .card > p {
 	 font-size: 20px;
-	 font-weight: 400;
+	 font-weight: bold;
+   letter-spacing: 0.04rem;
 	/* line-height: 20px;
 	 */
 	 color: #1a3a12;
@@ -246,7 +256,7 @@ margin: 3rem;
 
 .section2 > .card-align > .card:hover p {
   transition: all 0.3s ease-out;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 .section2 > .card-align > .card:hover h3 {
   transition: all 0.3s ease-out;
@@ -266,12 +276,14 @@ margin: 3rem;
 }
 
 .section3>.header {
-  color: #000;
-  font-weight: 500;
-  font-size: 40px;
-  margin-top: 2rem;
-  /* margin-bottom: 2rem; */
+  color: #3c4242;
+  font-size: 2.9rem;
+  margin-top: 5rem;
+  margin-bottom: 25px;
   text-align: center;
+  font-weight: 600;
+  font-family: "DM Sans";
+  letter-spacing: 0.4rem;
 }
 
 .section3>.card-align {
@@ -285,10 +297,12 @@ margin: 3rem;
   color: #000000;
   font-size: 22px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
   margin: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
+  /* /* position: absolute; */
 }
 
 /* .section3 > .card-align > .card > p {
@@ -305,20 +319,18 @@ margin: 3rem;
 .section3 > .card-align > .card {
 	 display: flex;
 	 flex-direction: column;
-	 justify-content: center;
+	 justify-content:center;
 	 align-items: center;
-	 top: 0px;
 	 position: relative;
 	 width: 100%;
-	 height: 23rem;
-	 max-width: 300px;
-	 background-color: #48a36e;
-	 border-radius: 20px;
+	 height:18.5rem;
+	 max-width: 21rem;
+	 background-color: white;
+   padding: 0px;
 	 margin-right: 2%;
 	 margin-bottom: 5%;
 	 text-decoration: none;
 	 overflow: hidden;
-	 border: 1px solid #f2f8f9;
 	 align-items: center;
 	 box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -338,7 +350,6 @@ margin: 3rem;
 	 background: #00838d;
 	 height: 32px;
 	 width: 32px;
-	 border-radius: 32px;
 	 transform: scale(2);
 	 transform-origin: 50% 50%;
 	 transition: transform 0.15s ease-out;
@@ -349,11 +360,9 @@ margin: 3rem;
  
 
 .section3>.card-align>.card>img {
-  width: 100%;
-  max-width: 300px;
-  height: 200px;
+  width: 32rem;
+  height: auto;
 }
-
 
 
 
@@ -383,12 +392,12 @@ margin: 3rem;
     height: 50rem;
     width: 50rem;
     position: relative;
+    top:9rem
   }
 
   .intro-image {
     position: absolute;
     margin-left: 0%;
-    top: 1rem;
     /* width: 100%;
     height: 100%; */
   }
@@ -425,8 +434,12 @@ margin: 3rem;
   .home-container{
     width:100%
   }
+  .companytitle {
+    font-size: 4rem;
+  }
   .intro-image_container{
-    width: 20rem;
+    width: 17rem;
+    top: 10rem;
   }
   .intro {
     flex-direction: column;
@@ -450,39 +463,50 @@ margin: 3rem;
     width:100%
   }
   .intro-image_container{
-    width: 20rem;
+    width: 17rem;
+    top: 10rem;
   }
+  .intro-image {
+    position: absolute;
+    margin-left: 0%;
+    top: 0rem;
+  }
+  .intro-para >p{
+    line-height: 1.9;
+    font-size: 1.07rem;
+    font-weight: bold;
+    word-spacing: 0.15rem;
+    margin-right: 4.2rem;
+    letter-spacing: 0rem;
+  }
+
   .intro {
     flex-direction: column;
     height: 50rem;
     position: relative;
     
   }
-  .intro-image_container{
-    width: 20rem;
-  }
+
   .intro-text{
     padding-left: 1rem;
     height: 55vh;
     width: 100%;
   }
   .companytitle {
-    font-size: 30rem;
-    margin: 0;
-    white-space: nowrap;
+    font-size: 3.8rem;
   }
   /* .container {
     margin: 20% 13%;
   } */
-  .intro-text>.intro-topic>.companytitle{
-    font-size: 30px;
-  }
+
   .intro-text>.intro-topic>.tagline{
-    font-size: 16px;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
   }
 
   .intro {
     flex-direction: column;
+    margin-top: 1rem;
   }
 
   /* .intro-para {

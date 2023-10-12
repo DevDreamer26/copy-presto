@@ -13,17 +13,17 @@ export default function Footer() {
         <div className='container-footer'>
         <div className="footer-content">
           <section className="footer-section">
-            <img src=
+            <img className="pestrocleanlogo" src=
             {LOGO} alt="prestocleanlogo" style={{width:"100%"}}/>
             <p> PRESTO CLEAN <BsDashLg/> Your Trusted Laundry Service in Guwahati. We take pride in providing premium laundry solutions to the vibrant community of Guwahati</p>
           </section>
 
           <section className="footer-section">
             <h3>Contact</h3>
-            <p>Contact us for any inquiries or support.
+            <p>Contact us for any inquiries or support
             </p>
-            <p><MdLocationPin/>Center 1 ,Hengrabari, Guwahati</p>
-            <p><MdLocationPin/>Center 2 , Zoo Road, Guwahati</p>
+            <p><MdLocationPin/>Center 1, Hengrabari, Guwahati</p>
+            <p><MdLocationPin/>Center 2, Zoo Road, Guwahati</p>
             <p><MdCall /> +91 6003509743
             </p>
             <p><MdMail /> <i>prestoclean@gmail.com </i></p>
@@ -34,13 +34,13 @@ export default function Footer() {
 
           <section className="footer-section">
             <h3>Company</h3>
-            <p><Link to='/Terms' style={{ textDecoration: 'none', color: 'white' }}>Terms & Conditios</Link></p>
+            <p><Link to='/Terms' style={{ textDecoration: 'none', color: 'white' }}>Terms & Conditions</Link></p>
             {/* <p>Privacy Policy</p> */}
             <p><Link to='/services' style={{ textDecoration: 'none', color: 'white' }}>Our Services</Link></p>
           </section>
           <section className="footer-section">
             <h3>Social Media</h3>
-            <p>Follow us on social media for updates.</p>
+            <p>Follow us on social media for updates</p>
             <p><MdOutlineFacebook style={{fontSize:'40px',cursor:'pointer'}}/>     <AiFillInstagram style={{fontSize:'40px',cursor:'pointer'}}/> <AiFillTwitterCircle style={{fontSize:'40px',cursor:'pointer'}}/> <AiFillYoutube style={{fontSize:'40px',cursor:'pointer'}}/></p>
           </section>
         </div>

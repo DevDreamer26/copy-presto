@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer";
 
 const services = () => {
   return (
-    <>
+    <div className="srv">
     <Navbar />
       <div className="svc" id="services"></div>
       <div className="section3">
@@ -86,7 +86,7 @@ const services = () => {
         </div>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 };
 
