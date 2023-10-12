@@ -1,0 +1,48 @@
+.invoice {
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+}
+.page {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    page-break-after: auto;
+  }
+.header {
+  text-align: center;
+}
+
+.invoice-details {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.total {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Add styling for the logo and QR code */
+.logo {
+  text-align: left;
+}
+
+.qr-code {
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+  }
+.schedule{
+  color: 'green';
+  border-color: 'green';
+  transition: 0.2s;
+}
+.schedule:hover{
+  background-color: 'green';
+  transition: 0.2s;
+}

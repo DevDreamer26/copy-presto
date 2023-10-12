@@ -1,0 +1,107 @@
+/* Styling for the entire services section */
+.section3 {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Styling for the header */
+.header {
+  font-size: 38px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the service cards */
+.card-align {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 100%; 
+  max-width: 400px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+/* Styling for the service descriptions */
+.content {
+  background-color: rgb(218, 230, 215);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for individual service sections */
+.wash,
+.iron,
+.prm,
+.homeservice,
+.dry {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Styling for headings within the service sections */
+.wash h2,
+.iron h2,
+.prm h2,
+.homeservice h2,
+.dry h2 {
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+/* Styling for paragraphs within the service sections */
+.wash p,
+.iron p,
+.prm p,
+.homeservice p,
+.dry p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.card:hover {
+  
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
