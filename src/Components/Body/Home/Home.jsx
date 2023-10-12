@@ -40,13 +40,7 @@ export default function Home() {
                     revolutionize the way you approach laundry, saving you
                     valuable time and effort.
                   </p>
-                  {/* <p>
-                    Imagine the luxury of freeing up more than 4 hours each week
-                    – time you can now invest in what truly matters to you. Our
-                    seamless process begins with the convenience of door-to-door
-                    pickup, ensuring your laundry journey is effortless from the
-                    start.
-                  </p> */}
+                  
                 </div>
                 <button
                   className="schedulebutton"
@@ -60,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="section2">
-            <div className="header">HOW PRESTOCLEAN WORKS</div>
+            <div className="header">HOW  PRESTOCLEAN  WORKS</div> 
             <div className="card-align">
               <div className="card">
                 <h3>Schedule</h3>

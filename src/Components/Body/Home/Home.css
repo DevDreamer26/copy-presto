@@ -1,10 +1,11 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Uncial+Antiqua&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Prata&family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .home-main {
@@ -149,17 +150,19 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
-  background: #FFFFDD;
+  background: #84af7c9e;
   border-radius: 15px;
-  /* background-color: #A8DF8E; */
+  
 }
 
 .section2>.header {
-  color: black;
-  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-size: 75px;
   margin-top: 5rem;
   margin-bottom: 25px;
   text-align: center;
+  font-family: 'Prata', serif;
+  font-weight: normal;
 }
 
 .section2>.card-align {
@@ -168,15 +171,15 @@ body {
   justify-content: center;
   padding-bottom: 10rem;
   border-radius: 15px;
-  background: #FFFFDD;
+  /* background: #FFFFDD; */
+  background:#84af7c9e;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .section2>.card-align>.card>h3 {
-  color: #00421D;
+  color: #000000;
 
   font-size: 22px;
   line-height: 24px;
@@ -261,14 +264,14 @@ margin: 3rem;
   flex-direction: column;
   margin-top: 100px;
   margin-bottom: 50px;
-  background:#e0ebda;
+  background:#72ff26;
   border-radius: 25px;
 }
 
 .section3>.header {
-  color: #000;
+  color: #5f947c;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 80px;
   margin-top: 2rem;
   /* margin-bottom: 2rem; */
   text-align: center;
@@ -278,11 +281,12 @@ margin: 3rem;
   display: flex;
   align-items: center ;
   flex-wrap: wrap;
+  background-color: #84af7c9e;
   justify-content: center;
 }
 
 .section3>.card-align>.card>h3 {
-  color: #000000;
+  color: #ffffff;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -312,7 +316,7 @@ margin: 3rem;
 	 width: 100%;
 	 height: 23rem;
 	 max-width: 300px;
-	 background-color: #48a36e;
+	 background-color: #6c8f7a;
 	 border-radius: 20px;
 	 margin-right: 2%;
 	 margin-bottom: 5%;
@@ -327,7 +331,7 @@ margin: 3rem;
 	 box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
 	 top: -4px;
 	 border: 1px solid #ccc;
-	 background-color: white;
+	 background-color: rgb(117, 152, 134);
 }
  .section3 > .card-align > .card:before {
 	 content: "";
