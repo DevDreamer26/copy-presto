@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="section2">
-            <div className="header">HOW  PRESTOCLEAN  WORKS</div> 
+            <div className="header">How PrestoClean works</div>
             <div className="card-align">
               <div className="card">
                 <h3>Schedule</h3>

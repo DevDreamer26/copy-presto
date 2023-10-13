@@ -1,4 +1,6 @@
 /* Styling for the entire services section */
+
+
 .section3 {
   background-color: #f9f9f9;
   padding: 40px 0;
@@ -11,6 +13,8 @@
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
+  font-family: DM Sans;
+
 }
 
 /* Styling for the service cards */
@@ -44,6 +48,7 @@
   font-weight: bold;
   color: #333;
   margin-top: 10px;
+  font-family: DM Sans;
 }
 
 
