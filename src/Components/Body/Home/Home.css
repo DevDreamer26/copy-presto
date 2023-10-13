@@ -1,20 +1,10 @@
 
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Uncial+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Prata&family=Uncial+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-
-body {
-  font-family: 'Poppins', sans-serif;
-  
-=======
 
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Lobster+Two&family=Prata&family=Uncial+Antiqua&display=swap');
 
 .home {
   font-family: DM Sans;
->>>>>>> f60a754889addfdbb87ea37f2cf7ce66069052ca
 }
 
 .home-main {
@@ -170,15 +160,6 @@ body {
 }
 
 .section2>.header {
-<<<<<<< HEAD
-  color: rgb(255, 255, 255);
-  font-size: 75px;
-  margin-top: 5rem;
-  margin-bottom: 25px;
-  text-align: center;
-  font-family: 'Prata', serif;
-  font-weight: normal;
-=======
   color: #3c4242;
   font-size: 2.9rem;
   margin-top: 5rem;
@@ -187,7 +168,6 @@ body {
   font-weight: 600;
   font-family: "DM Sans";
   letter-spacing: 0.4rem;
->>>>>>> f60a754889addfdbb87ea37f2cf7ce66069052ca
 }
 
 .section2>.card-align {
@@ -296,18 +276,10 @@ margin: 3rem;
 }
 
 .section3>.header {
-<<<<<<< HEAD
-  color: #5f947c;
-  font-weight: 500;
-  font-size: 80px;
-  margin-top: 2rem;
-  /* margin-bottom: 2rem; */
-=======
   color: #3c4242;
   font-size: 2.9rem;
   margin-top: 5rem;
   margin-bottom: 25px;
->>>>>>> f60a754889addfdbb87ea37f2cf7ce66069052ca
   text-align: center;
   font-weight: 600;
   font-family: "DM Sans";
@@ -352,17 +324,10 @@ margin: 3rem;
 	 align-items: center;
 	 position: relative;
 	 width: 100%;
-<<<<<<< HEAD
-	 height: 23rem;
-	 max-width: 300px;
-	 background-color: #6c8f7a;
-	 border-radius: 20px;
-=======
 	 height:18.5rem;
 	 max-width: 21rem;
 	 background-color: white;
    padding: 0px;
->>>>>>> f60a754889addfdbb87ea37f2cf7ce66069052ca
 	 margin-right: 2%;
 	 margin-bottom: 5%;
 	 text-decoration: none;
